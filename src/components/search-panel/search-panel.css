@@ -1,0 +1,20 @@
+.search-panel {
+    display: flex;
+    justify-content: space-between;
+}
+.input-search {
+    display: flex;
+    border: outset rgba(0, 0, 0, 0.5) 1px;
+    border-radius: 4px;
+    height: 40px;
+    margin: 0 5px 0 0;
+    flex: 1 1 270px;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: -apple-system, "Segoe UI", Verdana, sans-serif;
+    font-size: 24px;
+    transition: all 0.4s ease 0.0s;
+}
+.input-search:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(0,123,255,.25)
+}

@@ -1,0 +1,14 @@
+.app-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.app-header__h1 {
+    font-size: 42px;
+    font-weight: 500;
+}
+.app-header__h2 {
+    color: grey;
+    font-weight: 500;
+}

@@ -1,0 +1,63 @@
+.btn-group {
+
+}
+.btn {
+    background-color: inherit;
+    padding: 6px 12px;
+    user-select: none;
+    transition: all .3s ease .0s;
+    font-family: -apple-system, "Segoe UI", Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+
+}
+.btn:focus {
+    outline: none;
+}
+.btn-filter {
+    border: solid rgba(0,0,0,0.5) 1px;
+}
+.btn-filter:first-child {
+    border-right: none;
+    border-left: solid rgba(0,0,0,0.5) 1px;
+    border-radius: 4px 0 0 4px;
+}
+.btn-filter:last-child {
+    border-right: solid rgba(0,0,0,0.5) 1px;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+}
+.btn-filter:hover {
+    background-color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, 1);
+}
+.btn-filter:focus {
+    outline: none;
+
+}
+.btn-info {
+    border: solid rgba(0,0,0,0.5) 1px;
+    background-color: rgb(23, 162, 184);
+    color: #eeeeee;
+}
+.btn-info:first-child {
+    border-radius: 4px 0 0 4px;
+}
+.btn-info:last-child {
+    border-radius: 0 4px 4px 0;
+}
+.btn-info:hover {
+    background-color: #138496;
+
+}
+.btn-info:focus {
+    box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
+}
+.btn-info:first-child {
+    border-right: none;
+}
+.btn-info:last-child {
+    border-left: none;
+}

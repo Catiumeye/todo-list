@@ -1,0 +1,16 @@
+.list-group-item {
+    font-family: -apple-system, "Segoe UI", Verdana, sans-serif;
+    border: solid rgba(0, 0, 0, .4) 1px;
+    border-radius: 3px;
+    height: 40px;
+}
+.list-group-item + .list-group-item {
+    margin-top: 5px;
+}
+.todo-list-item.done {
+    text-decoration: line-through;
+}
+.todo-list-item.important {
+    font-weight: bold;
+    color: steelblue;
+}
